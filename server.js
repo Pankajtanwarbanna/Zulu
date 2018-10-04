@@ -3,8 +3,11 @@ var app = express();
 var morgan = require('morgan');             // middleware to log http requests
 var port = 8080 || process.env.PORT;
 var mongoose = require('mongoose');
+var router = express.Router();
+var apiRoutes = require('./app/routes/api')(router);
 
 app.use(morgan('dev'));
+app.use('/api', apiRoutes);
 
 // connecting to mongo database
 mongoose.connect('mongodb://localhost:27017/zulu', { useNewUrlParser: true }, function (err) {
