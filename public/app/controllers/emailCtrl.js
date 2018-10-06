@@ -1,3 +1,7 @@
+/*
+    Controller written by - Pankaj tanwar
+*/
+
 angular.module('emailController', ['userServices'])
 
 // Email controller

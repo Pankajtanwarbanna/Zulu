@@ -1,3 +1,6 @@
+/*
+    Controller written by - Pankaj tanwar
+*/
 angular.module('userCtrl',['userServices'])
 
 .controller('regCtrl', function ($scope, $http, $timeout, $location,user) {

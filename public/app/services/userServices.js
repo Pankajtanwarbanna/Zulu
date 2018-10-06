@@ -1,3 +1,6 @@
+/*
+    Services written by - Pankaj tanwar
+*/
 angular.module('userServices',[])
 
 .factory('user', function ($http) {

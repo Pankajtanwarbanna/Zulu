@@ -1,3 +1,6 @@
+/*
+    Controller written by - Pankaj tanwar
+*/
 angular.module('managementController', ['userServices'])
 
 .controller('managementCtrl', function (user) {

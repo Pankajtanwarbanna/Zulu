@@ -1,3 +1,7 @@
+/*
+    Controller written by - Pankaj tanwar
+*/
+
 angular.module('mainController', ['authServices'])
 
 .controller('mainCtrl', function ($window,$http, auth, $timeout, $location, authToken, $rootScope, user) {

@@ -1,3 +1,6 @@
+/*
+    API written by - Pankaj Tanwar
+*/
 var User = require('../models/user');
 var jwt = require('jsonwebtoken');
 var secret = 'zulu';
